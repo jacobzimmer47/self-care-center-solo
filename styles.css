@@ -10,56 +10,76 @@ black - #000000;
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #78a7c6;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
   
 
 .two-titles {
-     margin: 100px;
+    margin: 100px;
     padding: 10px; 
 }
 
 .two-titles > .header {
-    display: flex;
-    justify-content: center;
+    position: fixed;
+    top: 5%;
+    left: 43%;
     font-size: x-large;
     margin-bottom: 100px;
 }
 
 .two-titles > .what-type-message {
-    display: flex;
-    justify-content: center;
+   position: fixed;
+    top: 30%;
+    left: 42%; 
 }
 
+
+
 .type-of-message-box {
-    display: block;
-    display: flex;
+    position: fixed;
+    top: 38%;
+    left: 31%;
     border: 1px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 50px;
+    padding-bottom: 45px;
+    padding-left: 450px;
     max-width: 30%;
     background-color: white;
 }
 
-#affirmation {
-    padding: 33%;
-    
+.both-radio-buttons {
+    position: fixed;
+    top: 40%;
+    left: 42%; 
+
 }
 
+
 #recive-message-button {
+    position: fixed;
+    top: 45%;
+    left: 43%;
+    padding: 5px;
+    width: 13%;
+    border-radius: 6px;
     font-family: 'Quicksand', sans-serif;
-    text-align: center;
+    color: white;
+    background-color:#134d71; 
 }
 
 .displayed-message {
-    display: inline-block;
-    display: flex; 
-    justify-content: center;
+    position: fixed;
+    top: 30%;
+    left: 6%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
     border: 1px;
     border-radius: 10px;
-    margin: 100px;
+    margin: 200px;
     padding: 50px;
     width: 50%;
     background-color: white;
