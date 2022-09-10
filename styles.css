@@ -14,7 +14,9 @@ body {
     /* justify-content: center; */
 }
 
-  
+  .hidden {
+    display: none;
+  }
 
 .two-titles {
     margin: 100px;
